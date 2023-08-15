@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;;
+}
+
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("RailwayStation.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.h1
+{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 50px;
+}
+#count-el
+{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 50px;
+}
+.btn
+{
+    position: absolute;
+    top: 60%;
+    left: 49%;
+    transform: translate(-50%,-50%);
+    size: 100px;
+}
+
+#incrm-btn{
+    background-color: red;
+    color: wheat;
+    padding: 15px 25px;
+    font-size: 25px;
+    margin: 10px;
+}
+
+#sve-btn{
+    background-color: green;
+    color: white;
+    padding: 15px 55px;
+    font-size: 25px;
+}
+
+.p
+{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: larger;
+}
